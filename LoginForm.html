@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+table {
+	border-collapse: collpse;
+}
+
+input[type='text'], input[type='password'] --속성 선택자 {
+	border: 0;
+}
+</style>
+</head>
+<body>
+
+	<h1 align="center">로그인 페이지</h1>
+	<form action="LoginCheck.jsp" method="post">
+		<table border="1" align="center">
+			<tr>
+				<td>ID:</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>PW:</td>
+				<td><input type="password" name="pw"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" value="로그인">
+					<input type="button" value="회원가입" onclick="location.href='joinForm.html';">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
