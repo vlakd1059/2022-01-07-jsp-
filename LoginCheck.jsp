@@ -32,7 +32,7 @@
 	// 2)
 	Connection conn = DriverManager.getConnection(url, user, password);
 
-	/* if(conn==null){
+	/* if(conn==null){ 
 		out.print("DB연결실패...");
 	}else{
 		out.print("DB연결성공...");
